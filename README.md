@@ -6,3 +6,6 @@ Simple uploading and retrieval of firebase data on realtime database and firebas
 1. Download and extract the zip file and open it in code editor (VSCode).
 2. Configure firebase database in the project.
 3. Two files needs to be updated for firebase config code - admin.js, products,js
+
+# Reference :
+https://www.youtube.com/watch?v=j_iYK9BejEE
