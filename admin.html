@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Product Images</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <label>Product Name</label><input type="text" id="nameinp" /><br /><br />
+    <label>Product Price</label
+    ><input type="number" id="priceinp" /><br /><br />
+    <label>Stock (Quantity)</label
+    ><input type="number" id="stockinp" /><br /><br />
+    <label>Category</label>
+    <select id="catinp">
+      <option value="Keyboard & Mouse">Keyboard & Mouse</option>
+      <option value="Monitor">Monitor</option>
+      <option value="CPU">CPU</option></select
+    ><br /><br />
+    <label>Points #1</label
+    ><input type="text" id="p1inp" class="pointers" /><br /><br />
+    <label>Points #2</label
+    ><input type="text" id="p2inp" class="pointers" /><br /><br />
+    <label>Points #3</label
+    ><input type="text" id="p3inp" class="pointers" /><br /><br />
+    <label>Points #4</label
+    ><input type="text" id="p4inp" class="pointers" /><br /><br />
+    <label style="height: 100px; vertical-align: top">Product Description</label
+    ><textarea id="desarea"></textarea><br /><br />
+    <div id="imagesDiv"></div>
+    <div id="controlDiv">
+      <label></label>
+      <label id="loadlab">uploading 1 of 3</label>
+      <button id="selimgsbtn">Select Images</button>
+      <button id="addprodbtn">Add Product</button>
+    </div>
+
+    <script src="js/admin.js" type="module"></script>
+  </body>
+</html>
